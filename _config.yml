@@ -2,8 +2,8 @@
 title: ava nemanic
 description: 'Personal Website'
 url: 'http://avanemanic.com'
-baseurl: '/avanemanic.github.io'
-profilepic: '/images/profpic1.jpg'
+baseurl: ''
+profilepic: '/images/yeet.png'
 bkimage: '/images/IMG_7022.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'

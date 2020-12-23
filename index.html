@@ -11,14 +11,15 @@ robots: noindex
 
       <li class="timeline-inverted">
         <div class="timeline-image">
-          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+          <a href="{{ project.url }}" target="_blank"><img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt=""></a>
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">
-            <h4><a href="https://github.com/{{ project.url }}" target="_blank">{{ project.name }}</a></h4>
+            <h4><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></h4>
           </div>
           <div class="timeline-body">
-            {{ project.desc | markdownify }}
+            {{ project.desc | markdownify }}<br>
+            <div style="font-weight: bold;">Additional Details:</b></div> <a href="{{ project.addl }}" target="_blank">{{ project.addl_title }}</a>
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
               <div style="height: 10px;"></div>
           </div>

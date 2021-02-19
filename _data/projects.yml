@@ -3,7 +3,7 @@
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: Reverse Engineering a Fire Piston 
   date: 2021
-  img: /images/robotproject.png
+  img: /images/CAD model.png
   url: https://drive.google.com/file/d/1oiIeo1yVjTyk3ybtK3X1LKbimy83rILN/view?usp=sharing
   desc: A reverse engineering report of a fire piston. Includes CAD drawings and tolerance loops, as well as thermodynamics, fluid mechanics, machine design, materials, dynamics, and failure analyses of the mechanism.
   addl_title: Report Link

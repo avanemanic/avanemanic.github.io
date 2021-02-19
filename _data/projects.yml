@@ -1,13 +1,13 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Dynamic Gap Measurement
-  date: 2020
-  img: /images/foamplug.png
-  url: https://drive.google.com/drive/folders/1DSzl_Nb6z8HkrXbrlJOF8froIM61tixl?usp=sharing
-  desc: A 3D-printed plastic plug designed to hold a piece of foam and clip into a washing machine tub. Used to measure the minimum dynamic gap during a cycle.
-  addl_title: Video of plug in use
-  addl: https://drive.google.com/file/d/1p8YFhTPc5ZmvaoDjy4FafH4aYECk6-d_/view?usp=sharing
+- name: Reverse Engineering a Fire Piston 
+  date: 2021
+  img: /images/robotproject.png
+  url: https://drive.google.com/file/d/1oiIeo1yVjTyk3ybtK3X1LKbimy83rILN/view?usp=sharing
+  desc: A reverse engineering report of a fire piston. Includes CAD drawings and tolerance loops, as well as thermodynamics, fluid mechanics, machine design, materials, dynamics, and failure analyses of the mechanism.
+  addl_title: Report Link
+  addl: https://drive.google.com/file/d/1ApNYEBEnrPxIGOVDI7NoWPAslKkDmkhC/view?usp=sharing
 
 - name: Robot Design Project
   date: 2020
@@ -16,6 +16,16 @@
   desc: A robot design project completed in groups for Design and Manufacturing Lab. 
   addl_title: SolidWorks Files
   addl: https://drive.google.com/drive/folders/1tP-pLsExkCY9hU4Wzck7-58Bzx0xNUzE?usp=sharing
+
+- name: Dynamic Gap Measurement
+  date: 2020
+  img: /images/foamplug.png
+  url: https://drive.google.com/drive/folders/1DSzl_Nb6z8HkrXbrlJOF8froIM61tixl?usp=sharing
+  desc: A 3D-printed plastic plug designed to hold a piece of foam and clip into a washing machine tub. Used to measure the minimum dynamic gap during a cycle.
+  addl_title: Video of plug in use
+  addl: https://drive.google.com/file/d/1p8YFhTPc5ZmvaoDjy4FafH4aYECk6-d_/view?usp=sharing
+
+
 
 
 #- name: Azure Automation Scripts
